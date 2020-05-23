@@ -19,8 +19,9 @@ import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-n
   ],
   declarations: [
     AppComponent,
-    
     TopBarComponent,
+    //HelloComponent,
+
     ProductListComponent,
     ProductAlertsComponent,
     ProductAlertsNotComponent
