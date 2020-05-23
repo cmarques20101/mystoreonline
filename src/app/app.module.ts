@@ -4,6 +4,9 @@ import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+
+import { HelloComponent } from './hello.component';
+
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
@@ -20,7 +23,7 @@ import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-n
   declarations: [
     AppComponent,
     TopBarComponent,
-    //HelloComponent,
+    HelloComponent,
 
     ProductListComponent,
     ProductAlertsComponent,
