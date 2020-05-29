@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { servicos } from '../servicos';
 
@@ -7,12 +7,10 @@ import { servicos } from '../servicos';
   templateUrl: './servico-list.component.html',
   styleUrls: ['./servico-list.component.css']
 })
-export class ServicoListComponent implements OnInit {
+export class ServicoListComponent {
   servicos = servicos;
   
   constructor() { }
 
-  ngOnInit() {
-  }
 
 }

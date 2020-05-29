@@ -1,4 +1,4 @@
-export const Servicos = [ 
+export const servicos = [ 
   {
     name: 'Mercearia',
     price: 0,
