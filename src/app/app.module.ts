@@ -11,14 +11,15 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-not.component';
-import { ServiceListComponent } from './service-list/service-list.component';
+import { ServicoListComponent } from './servico-list/servico-list.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
+     // { path: '', component: ProductListComponent },
+      { path: '', component: ServicoListComponent },
     ])
   ],
   declarations: [
@@ -29,7 +30,7 @@ import { ServiceListComponent } from './service-list/service-list.component';
     ProductListComponent,
     ProductAlertsComponent,
     ProductAlertsNotComponent,
-    ServiceListComponent
+    ServicoListComponent
   ],
   bootstrap: [ AppComponent ]
 })
