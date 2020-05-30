@@ -6,12 +6,14 @@ servico-list works!
 
 <h2>My Heroes</h2>
 <ul class="servicos">
-  <li *ngFor="let servico of servicos">
+  <li *ngFor="let selServico of servicos"
+    (click)="onSelect(selServico)">
     <span class="badge">{{selServico.id}}</span> {{selServico.name}}
   </li>
 </ul>
 
- <app-servico-view (click)="onSelect(servico)"></app-servico-view>
+<!--app-servico-view (click)="onSelect(servico)"></app-servico-view-->
+
 <!--div *ngIf="selServico">
 
   <h2>{{selServico.name | uppercase}} Details</h2>
