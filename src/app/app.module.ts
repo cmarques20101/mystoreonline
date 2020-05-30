@@ -18,6 +18,7 @@ import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-n
 
 import { ServicoListComponent } from './servico-list/servico-list.component';
 import { ServicoEditComponent } from './servico-edit/servico-edit.component';
+import { ServicoViewComponent } from './servico-view/servico-view.component';
 
 @NgModule({
   imports: [
@@ -28,7 +29,7 @@ import { ServicoEditComponent } from './servico-edit/servico-edit.component';
     /**/
     RouterModule.forRoot([
       //{ path: '', component: ProductListComponent },
-      { path: '', component: ServicoEditComponent },
+      { path: '', component: ServicoListComponent },
     /**/
     ])
   ],
@@ -45,7 +46,7 @@ import { ServicoEditComponent } from './servico-edit/servico-edit.component';
     ProductAlertsNotComponent,
     
     ServicoListComponent
-    , ServicoEditComponent
+    , ServicoEditComponent, ServicoViewComponent
   ],
   bootstrap: [ AppComponent ]
 })

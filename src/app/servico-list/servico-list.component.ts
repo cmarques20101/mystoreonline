@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Input } from '@angular/core';
 
+import { Servico } from '../servico';
 import { servicos } from '../servicos';
 
 @Component({
@@ -10,9 +11,13 @@ import { servicos } from '../servicos';
 })
 export class ServicoListComponent {
   //@Input() title;
+  selServico: Servico;
   servicos = servicos;
   
   constructor() { }
 
+  onSelect(servico: Servico): void {
+    this.selServico = servi;
+  }
 
 }
