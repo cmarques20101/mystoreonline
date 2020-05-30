@@ -15,7 +15,7 @@ import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-n
 import { ServicoListComponent } from './servico-list/servico-list.component';
 
 import { HelloxComponent } from './hellox/hellox.component';
-import { ServicoEditComponent } from './servico-edit/servico-edit.component';
+import { ServicoEditComponent } from './servico-edit/servico-edit.component.t';
 
 @NgModule({
   imports: [
