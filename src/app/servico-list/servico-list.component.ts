@@ -11,13 +11,13 @@ import { servicos } from '../servicos';
 })
 export class ServicoListComponent {
   @Input() title;
-  servico: Servico;
+  servicox: Servico;
   servicos = servicos;
   
   constructor() { }
 
   onSelect(servico: Servico): void {
-    this.selServico = servico;
+    this.servicox = servico;
   }
 
 }
