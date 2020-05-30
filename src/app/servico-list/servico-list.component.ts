@@ -12,7 +12,7 @@ import { servicos } from '../servicos';
 export class ServicoListComponent {
   @Input() title;
   selServico: Servico;
-  servicos = servicos;
+  //servicos = servicos;
   
   constructor() { }
 

@@ -3,10 +3,23 @@ servico-list works!
 </p-->
 <h2>Serviço Listar:</h2>
 <hr/>
-<div *ngFor="let servico of servicos" (click)="onSelect(servico)">
+
+ <app-servico-view (click)="onSelect(servico)"></app-servico-view>
+<!--div *ngIf="selServico">
+
+  <h2>{{selServico.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{selServico.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="selServico.name" placeholder="name"/>
+    </label>
+  </div>
+-->
+<!--
+  <div *ngFor="let servico of servicos" (click)="onSelect(servico)">
   <span>id: {{ servico.id }}</span>
   <h3>
-    <!--  {{ product.name }} -->
+    <!--  {{ product.name }} -- >
     <a [title]="servico.name + ' details !'">
       {{ servico.name }}
     </a>
@@ -30,5 +43,6 @@ servico-list works!
     (notify1)="onNotify1()">
   </app-product-alerts>
 -->
-</div>
+<!--/div-->
+k
 <hr/>
