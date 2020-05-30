@@ -7,6 +7,7 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   nameApp = 'Angular ' + VERSION.major + " !";
+  title = 'my store online';
 }
 
 
