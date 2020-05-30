@@ -8,13 +8,13 @@ servico-list works!
 <ul class="servicos">
   <li *ngFor="let servico of servicos"
     (click)="onSelect(servico)">
-    <span class="badge">{{servico.id}}</span> {{servico.name}}
+    <span class="badge">id: {{servico.id}}</span> name: {{servico.name}} description: {{servico.description}}
   </li>
 </ul>
 
 <!--app-servico-view (click)="onSelect(servico)"></app-servico-view-->
 
-<!--div *ngIf="selServico">
+<!--div *ngIf="selServico"-->
 
   <h2>{{selServico.name | uppercase}} Details</h2>
   <div><span>id: </span>{{selServico.id}}</div>
@@ -23,7 +23,7 @@ servico-list works!
       <input [(ngModel)]="selServico.name" placeholder="name"/>
     </label>
   </div>
--->
+
 <!--
   <div *ngFor="let servico of servicos" (click)="onSelect(servico)">
   <span>id: {{ servico.id }}</span>
