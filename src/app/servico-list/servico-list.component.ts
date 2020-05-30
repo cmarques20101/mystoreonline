@@ -11,7 +11,7 @@ import { servicos } from '../servicos';
 })
 export class ServicoListComponent {
   @Input() title;
-  selServico: Servico;
+  servico: Servico;
   servicos = servicos;
   
   constructor() { }

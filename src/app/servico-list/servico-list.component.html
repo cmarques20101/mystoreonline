@@ -8,10 +8,17 @@ servico-list works!
 <ul class="cservicos">
   <li *ngFor="let servico of servicos">
     <span class="badge">id: {{servico.id}}</span> name: {{servico.name}} 
- 
+    
+    <servico-list-item
+    [servico]=servico
+    >
+    </servico-list-item>
+
   </li>
 </ul>
-<!-- 
+<!--
+  (notify2)="onNotify2()"
+
   (click)="onSelect(servico)"
   description: {{servico.description}} -->
 

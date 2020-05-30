@@ -17,6 +17,8 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-not.component';
 
 import { ServicoListComponent } from './servico-list/servico-list.component';
+import { ServicoListItemComponent } from './servico-list-item/servico-list-item.component';
+
 import { ServicoEditComponent } from './servico-edit/servico-edit.component';
 import { ServicoViewComponent } from './servico-view/servico-view.component';
 
@@ -47,7 +49,10 @@ import { ServicoViewComponent } from './servico-view/servico-view.component';
     ProductAlertsNotComponent,
     
     ServicoListComponent
-    , ServicoEditComponent, ServicoViewComponent
+    , ServicoListItemComponent
+    , ServicoEditComponent
+    , ServicoViewComponent
+    
   ],
   bootstrap: [ AppComponent ]
 })
