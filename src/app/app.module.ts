@@ -6,18 +6,17 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
 import { HelloyComponent } from './helloy.component';
-//import { HelloComponent } from './hellox/hellox.component';
+import { HelloxComponent } from './hellox/hellox.component';
 
 import { TopBarComponent } from './top-bar/top-bar.component';
+
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductAlertsComponent } from './product-alerts/product-alerts.component';
 import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-not.component';
-import { ServicoListComponent } from './servico-list/servico-list.component';
 
-import { HelloxComponent } from './hellox/hellox.component';
-/*
+import { ServicoListComponent } from './servico-list/servico-list.component';
 import { ServicoEditComponent } from './servico-edit/servico-edit.component';
-*/
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -31,16 +30,18 @@ import { ServicoEditComponent } from './servico-edit/servico-edit.component';
   ],
   declarations: [
     AppComponent,
+    
     TopBarComponent,
+    
     HelloyComponent
     , HelloxComponent,
 
     ProductListComponent,
     ProductAlertsComponent,
     ProductAlertsNotComponent,
-    ServicoListComponent
     
-  //  , ServicoEditComponent
+    ServicoListComponent
+    , ServicoEditComponent
   ],
   bootstrap: [ AppComponent ]
 })
