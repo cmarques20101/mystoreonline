@@ -20,9 +20,11 @@ import { HelloxComponent } from './hellox/hellox.component';
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    /**/
     RouterModule.forRoot([
       //{ path: '', component: ProductListComponent },
       { path: '', component: ServicoListComponent },
+    /**/
     ])
   ],
   declarations: [
