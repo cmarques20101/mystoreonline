@@ -1,4 +1,5 @@
 import { Component, VERSION } from '@angular/core';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,7 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   nameApp = 'Angular ' + VERSION.major + " !";
+  //@Input() title;
   title = 'my store online';
 }
 

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Input } from '@angular/core';
 
 import { servicos } from '../servicos';
 
@@ -8,6 +9,7 @@ import { servicos } from '../servicos';
   styleUrls: ['./servico-list.component.css']
 })
 export class ServicoListComponent {
+  /@Input() title;
   servicos = servicos;
   
   constructor() { }
