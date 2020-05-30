@@ -8,7 +8,7 @@ import { Input } from '@angular/core';
 })
 export class TopBarComponent implements OnInit {
   //title = 'My Store Online 1';
-  @Input() titles;
+  @Input() titlex;
 
   constructor() { }
 
