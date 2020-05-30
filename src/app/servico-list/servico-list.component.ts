@@ -10,8 +10,7 @@ import { servicos } from '../servicos';
   styleUrls: ['./servico-list.component.css']
 })
 export class ServicoListComponent {
-  @Input() title;
-  servicox: Servico;
+  @Input() servicox: Servico;
   servicos = servicos;
   
   constructor() { }

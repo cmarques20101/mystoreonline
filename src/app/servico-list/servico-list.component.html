@@ -7,16 +7,22 @@ servico-list works!
 <h2>My Heroes</h2>
 <ul class="cservicos">
   <li *ngFor="let servicoy of servicos">
-    <span class="badge">id: {{servicoy.id}}</span> name: {{servicoy.name}} 
+    <span class="badge">id: {{servicoy.id}}</span> name: {{servicoy.name}}
+
+    <button (click)="onSelect(servicoy)">
+      Share
+    </button>
+ 
     
     <!--servico-list-item
-    [servico]=servicoy
+    
     >
     </servico-list-item-->
 
   </li>
 </ul>
 <!--
+  [servicox]="{{ servicoy }}"
   (notify2)="onNotify2()"
 
   (click)="onSelect(servico)"
