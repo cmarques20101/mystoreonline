@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TServico } from '../files/tservico';
+import { TServico } from '../tservico';
 
 @Component({
   selector: 'app-service-edit',
