@@ -18,7 +18,7 @@ import { ServicoListComponent } from './servico-list/servico-list.component';
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-     // { path: '', component: ProductListComponent },
+      //{ path: '', component: ProductListComponent },
       { path: '', component: ServicoListComponent },
     ])
   ],
