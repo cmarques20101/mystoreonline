@@ -9,7 +9,7 @@ import { Input } from '@angular/core';
 export class AppComponent  {
   nameApp = 'Angular ' + VERSION.major + " !";
   //@Input() title;
-  title = 'my store online';
+  title = 'my store online 2';
 }
 
 

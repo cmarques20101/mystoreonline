@@ -9,7 +9,7 @@ import { servicos } from '../servicos';
   styleUrls: ['./servico-list.component.css']
 })
 export class ServicoListComponent {
-  /@Input() title;
+  //@Input() title;
   servicos = servicos;
   
   constructor() { }

@@ -24,7 +24,7 @@ import { ServicoEditComponent } from './servico-edit/servico-edit.component';
     /**/
     RouterModule.forRoot([
       //{ path: '', component: ProductListComponent },
-      { path: '', component: ServicoListComponent },
+      { path: '', component: ServicoEditComponent },
     /**/
     ])
   ],
