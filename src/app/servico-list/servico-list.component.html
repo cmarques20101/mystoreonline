@@ -5,12 +5,15 @@ servico-list works!
 <hr/>
 
 <h2>My Heroes</h2>
-<ul class="servicos">
+<ul class="cservicos">
   <li *ngFor="let servico of servicos"
-    (click)="onSelect(servico)">
-    <span class="badge">id: {{servico.id}}</span> name: {{servico.name}} description: {{servico.description}}
+  >
+    <span class="badge">id: {{servico.id}}</span> name: {{servico.name}} 
   </li>
 </ul>
+<!-- 
+  (click)="onSelect(servico)"
+  description: {{servico.description}} -->
 
 <!--app-servico-view (click)="onSelect(servico)"></app-servico-view-->
 
