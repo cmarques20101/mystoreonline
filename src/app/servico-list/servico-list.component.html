@@ -6,24 +6,25 @@ servico-list works!
 
 <h2>My Heroes</h2>
 <ul class="xservicos">
-  <li *ngFor="let servicoy of servicos">
-    <span class="badge">id: {{servicoy.id}}</span> name: {{servicoy.name}}
-
-    <!--button (click)="onSelect(servicoy)">
-      Selecionar
-    </button->
- 
-    
-    <!--servico-list-item
-    
-    >
-    </servico-list-item-->
-
+  <li *ngFor="let servico of Dataservicos">
+    <span class="badge">id: {{servico.id}}</span> nome: {{servico.name}}
   </li>
 </ul>
 
 
 <!--
+
+
+    <!--button (click)="onSelect(servicoy)">
+      Selecionar
+    </button-- >
+ 
+    
+    <!--servico-list-item
+    
+    >
+    </servico-list-item -- >
+
   [servicox]="{{ servicoy }}"
   (notify2)="onNotify2()"
 
