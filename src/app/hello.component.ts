@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'hello',
+  selector: 'helloy',
   templateUrl: './hello.component.html',
   /*
   template: `<h1>Hello {{nameApp}}!</h1><hr/><address>

@@ -14,7 +14,7 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
 import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-not.component';
 import { ServicoListComponent } from './servico-list/servico-list.component';
 
-//import { HelloxComponent } from './hellox/hellox.component';
+import { HelloxComponent } from './hellox/hellox.component';
 
 @NgModule({
   imports: [
