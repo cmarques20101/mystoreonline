@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'hellox',
-  templateUrl: './hello.component.html',
+  templateUrl: './hellox.component.html',
   /*
   template: `<h1>Hello {{nameApp}}!</h1><hr/><address>
   <a href="mailto:cmarques20101@hotmail.com">email</a>
@@ -10,7 +10,7 @@ import { Component, Input } from '@angular/core';
 */
   styles: [`h1 { font-family: Lato; }`]
 })
-export class HelloComponent  {
+export class HelloxComponent  {
   @Input() nameApp: string;
 }
 //Copy from: ?

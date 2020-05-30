@@ -34,7 +34,7 @@ import { HelloxComponent } from './hellox/hellox.component';
     ProductAlertsComponent,
     ProductAlertsNotComponent,
     ServicoListComponent
-    //,HelloxComponent
+    ,HelloxComponent
   ],
   bootstrap: [ AppComponent ]
 })
