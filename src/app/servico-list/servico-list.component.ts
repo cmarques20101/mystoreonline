@@ -10,14 +10,14 @@ import { servicos } from '../servicos';
   styleUrls: ['./servico-list.component.css']
 })
 export class ServicoListComponent {
-  //@Input() title;
+  @Input() title;
   selServico: Servico;
   servicos = servicos;
   
   constructor() { }
 
   onSelect(servico: Servico): void {
-    this.selServico = servi;
+    this.selServico = servico;
   }
 
 }

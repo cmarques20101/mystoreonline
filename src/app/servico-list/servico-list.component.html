@@ -3,7 +3,8 @@ servico-list works!
 </p-->
 <h2>Serviço Listar:</h2>
 <hr/>
-<div *ngFor="let servico of servicos">
+<div *ngFor="let servico of servicos" (click)="onSelect(servico)">
+  <span>id: {{ servico.id }}</span>
   <h3>
     <!--  {{ product.name }} -->
     <a [title]="servico.name + ' details !'">
@@ -11,8 +12,8 @@ servico-list works!
     </a>
   </h3>
  
-  <p *ngIf="servico.description">
-    Description: {{ servico.description }}
+  <p *ngIf="selServico.description">
+    Description: {{ selServico.description }}
   </p>
 <!--  
   <button (click)="share()">
