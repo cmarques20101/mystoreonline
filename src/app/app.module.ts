@@ -19,7 +19,7 @@ import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-n
 import { ServicoListComponent } from './servico-list/servico-list.component';
 import { ServicoEditComponent } from './servico-edit/servico-edit.component';
 import { ServicoViewComponent } from './servico-view/servico-view.component';
-import { ServicoListEditComponent } from './servico-list-edit/servico-list-edit.component';
+
 
 @NgModule({
   imports: [
@@ -47,7 +47,7 @@ import { ServicoListEditComponent } from './servico-list-edit/servico-list-edit.
     ProductAlertsNotComponent,
     
     ServicoListComponent
-    , ServicoEditComponent, ServicoViewComponent, ServicoListEditComponent
+    , ServicoEditComponent, ServicoViewComponent
   ],
   bootstrap: [ AppComponent ]
 })
