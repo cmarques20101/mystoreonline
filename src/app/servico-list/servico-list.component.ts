@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Input } from '@angular/core';
 
 import { Servico } from '../servico';
-import { servicos } from '../servicos';
+import { Dataservicos } from '../servicos';
 
 @Component({
   selector: 'app-servico-list',
@@ -11,7 +11,7 @@ import { servicos } from '../servicos';
 })
 export class ServicoListComponent {
   servicox: Servico;
-  servicos = servicos;
+  servicos = Dataservicos;
   
   constructor() { }
 

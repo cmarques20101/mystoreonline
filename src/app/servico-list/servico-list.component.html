@@ -5,13 +5,13 @@ servico-list works!
 <hr/>
 
 <h2>My Heroes</h2>
-<ul class="cservicos">
+<ul class="xservicos">
   <li *ngFor="let servicoy of servicos">
     <span class="badge">id: {{servicoy.id}}</span> name: {{servicoy.name}}
 
-    <button (click)="onSelect(servicoy)">
-      Share
-    </button>
+    <!--button (click)="onSelect(servicoy)">
+      Selecionar
+    </button->
  
     
     <!--servico-list-item
@@ -21,6 +21,8 @@ servico-list works!
 
   </li>
 </ul>
+
+
 <!--
   [servicox]="{{ servicoy }}"
   (notify2)="onNotify2()"
@@ -30,7 +32,7 @@ servico-list works!
 
 <!--app-servico-view (click)="onSelect(servico)"></app-servico-view-->
 
-<!--div *ngIf="selServico"-->
+<!--div *ngIf="selServico">
 
   <h2>{{selServico.name | uppercase}} Details</h2>
   <div><span>id: </span>{{selServico.id}}</div>
