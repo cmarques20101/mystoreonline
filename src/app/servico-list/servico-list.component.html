@@ -4,6 +4,13 @@ servico-list works!
 <h2>Serviço Listar:</h2>
 <hr/>
 
+<h2>My Heroes</h2>
+<ul class="servicos">
+  <li *ngFor="let servico of servicos">
+    <span class="badge">{{selServico.id}}</span> {{selServico.name}}
+  </li>
+</ul>
+
  <app-servico-view (click)="onSelect(servico)"></app-servico-view>
 <!--div *ngIf="selServico">
 
