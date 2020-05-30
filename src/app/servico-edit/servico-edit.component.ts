@@ -7,6 +7,7 @@ import { Servico } from '../servico';
   styleUrls: ['./servico-edit.component.css']
 })
 export class ServicoEditComponent implements OnInit {
+  title = 'Detalhes'
   servico: Servico = {
     id: 1,
     name: 'IE - Consultadoria'

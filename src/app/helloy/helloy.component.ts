@@ -8,7 +8,8 @@ import { Component, Input } from '@angular/core';
   <a href="mailto:cmarques20101@hotmail.com">email</a>
 </address><hr/>`,
 */
-  styles: [`h1 { font-family: Lato; }`]
+  //styles: [`h1 { font-family: Lato; }`]
+  styleUrls: ['./helloy.component.css']
 })
 export class HelloyComponent  {
   @Input() nameApp: string;

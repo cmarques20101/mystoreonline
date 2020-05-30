@@ -5,7 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
-import { HelloyComponent } from './helloy.component';
+import { HelloyComponent } from './helloyhelloy.component';
 import { HelloxComponent } from './hellox/hellox.component';
 
 import { TopBarComponent } from './top-bar/top-bar.component';
