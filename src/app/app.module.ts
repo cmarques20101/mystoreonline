@@ -15,7 +15,7 @@ import { ProductAlertsNotComponent } from './product-alerts-not/product-alerts-n
 import { ServicoListComponent } from './servico-list/servico-list.component';
 
 import { HelloxComponent } from './hellox/hellox.component';
-import { ServiceEditComponent } from './service-edit/service-edit.component';
+import { ServicoEditComponent } from './servico-edit/servico-edit.component';
 
 @NgModule({
   imports: [
@@ -31,13 +31,15 @@ import { ServiceEditComponent } from './service-edit/service-edit.component';
   declarations: [
     AppComponent,
     TopBarComponent,
-    HelloyComponent,
+    HelloyComponent
+    , HelloxComponent,
 
     ProductListComponent,
     ProductAlertsComponent,
     ProductAlertsNotComponent,
     ServicoListComponent
-    ,HelloxComponent, ServiceEditComponent
+    
+    , ServicoEditComponent
   ],
   bootstrap: [ AppComponent ]
 })

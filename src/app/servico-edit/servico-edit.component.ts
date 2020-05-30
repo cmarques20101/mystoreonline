@@ -7,6 +7,10 @@ import { Servico } from '../servico';
   styleUrls: ['./service-edit.component.css']
 })
 export class ServiceEditComponent implements OnInit {
+  servico: Servico = {
+    id: 1,
+    name: 'IE - Consultadoria'
+  };
 
   constructor() { }
 
