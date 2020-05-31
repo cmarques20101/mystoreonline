@@ -23,6 +23,8 @@ import { ServicoEditComponent } from './servico-edit/servico-edit.component';
 import { ServicoViewComponent } from './servico-view/servico-view.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ServicoService } from './servico.service';
+import { MessagesComponent } from './messages/messages.component';
+import { MessageService } from './message.service';
 
 
 @NgModule({
@@ -53,11 +55,11 @@ import { ServicoService } from './servico.service';
     ServicoListComponent
     , ServicoListItemComponent
     , ServicoEditComponent
-    , ServicoViewComponent, DashboardComponent
+    , ServicoViewComponent, DashboardComponent, MessagesComponent
     
   ],
   bootstrap: [ AppComponent ],
-  providers: [ServicoService]
+  providers: [ServicoService, MessageService]
 })
 export class AppModule { }
 
