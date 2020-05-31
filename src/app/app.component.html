@@ -1,11 +1,15 @@
 <hellox nameAppx="{{ nameApp }}"></hellox>
 x1
-<h1>{{title | uppercase}}</h1>
+<h1>{{title + ' ?'| uppercase}}</h1>
 <!--app-top-bar [title]=nameApp></app-top-bar-->
 <app-top-bar [titlex]=title></app-top-bar>
 x2
+<nav>
+  <a routerLink="/servicos">Serviços</a>
+</nav>
+x3
 <router-outlet></router-outlet>
-
+x4
 <!--
   <h1>{{title}}</h1>
 <router-outlet></router-outlet>
