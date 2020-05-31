@@ -2,9 +2,8 @@ import { Component, OnInit  } from '@angular/core';
 import { Input } from '@angular/core';
 
 import { Servico } from '../servico';
-//import { servicos } from '../servicos';
-
 import { ServicoService } from '../servico.service'
+import { MessageService } from '../message.service';
 
 @Component({
   selector: 'app-servico-list',
@@ -12,11 +11,13 @@ import { ServicoService } from '../servico.service'
   styleUrls: ['./servico-list.component.css']
 })
 export class ServicoListComponent {
-  servicox: Servico;
+  selectedServico: Servico;
   //servicos = servicos;
   servicos: Servico[];
   
-  constructor(private ServicoService: ServicoService) { }
+  constructor(private ServicoService: ServicoService
+    , private messageService: MessageService
+    ) { }
 
   //ngOnInit() {
     //servicox = {}; //{id:0, name:'', price:0, description: '.'}
@@ -27,7 +28,8 @@ export class ServicoListComponent {
 
 
   onSelect(servico: Servico): void {
-    this.servicox = servico;
+    this.selectedServico = servico;
+    this.messageService.add(`ServicoService: Selected service id=${servico.id}!`);
   }
 
   getServicos(): void {

@@ -21,7 +21,7 @@ export class ServicoService {
   }
   */
   getServicos(): Observable<Servico[]> {
-    this.messageService.add('ServicoService: fetched servicos');
+    this.messageService.add('ServicoService: fetched servicos!');
     return of(servicos);
   }
   
