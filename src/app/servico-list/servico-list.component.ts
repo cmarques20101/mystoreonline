@@ -38,5 +38,4 @@ export class ServicoListComponent implements OnInit {
     this.ServicoService.getServicos()
       .subscribe(servicos => this.servicos = servicos);
   }
-
-  
+}
