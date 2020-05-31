@@ -18,7 +18,9 @@ export class DashboardComponent implements OnInit {
 
   getServicos(): void {
     this.ServicoService.getServicos()
-      .subscribe(servicos => this.servicos = servicos.slice(1, 5)
+      .subscribe(
+        servicos => this.servicos = servicos.slice(1, 5)
+        );
   }
 }
 /*
