@@ -24,5 +24,6 @@ export class ServicoService {
     this.messageService.add('ServicoService: fetched servicos');
     return of(servicos);
   }
+  
 
 }
