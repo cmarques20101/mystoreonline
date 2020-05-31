@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Servico } from '../servico';
-import { servicoService } from '../servico.service';
+import { ServicoService } from '../servico.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -10,15 +10,15 @@ import { servicoService } from '../servico.service';
 export class DashboardComponent implements OnInit {
   servicos: Servico[] = []; //start empty
 
-  constructor(private servicoService: servicoService) { }
+  constructor(private ServicoService: ServicoService) { }
 
   ngOnInit() {
     this.getServicos();
   }
 
   getServicos(): void {
-    this.servicoService.getServicos()
-      .subscribe(servicos => this.servicos = servicos.slice(1, 5));
+    this.ServicoService.getServicos()
+      .subscribe(servicos => this.servicos = servicos.slice(1, 5)
   }
 }
 /*

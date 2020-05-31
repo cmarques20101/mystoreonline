@@ -31,7 +31,7 @@ export class ServicoListComponent {
   }
 
   getServicos(): void {
-    this.servicos = this.ervicoService.getServicos();
+    this.servicos = this.ServicoService.getServicos();
   }
 
 }
