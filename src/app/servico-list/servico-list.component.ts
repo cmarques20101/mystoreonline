@@ -16,7 +16,7 @@ export class ServicoListComponent {
   //servicos = servicos;
   servicos: Servico[];
   
-  constructor(private servicoService: ServicoService) { }
+  constructor(private ServicoService: ServicoService) { }
 
   //ngOnInit() {
     //servicox = {}; //{id:0, name:'', price:0, description: '.'}
@@ -31,7 +31,7 @@ export class ServicoListComponent {
   }
 
   getServicos(): void {
-    this.servicos = this.servicoService.getServicos();
+    this.servicos = this.ervicoService.getServicos();
   }
 
 }

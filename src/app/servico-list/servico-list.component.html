@@ -1,31 +1,33 @@
 <!--p>
 servico-list works!
 </p-->
+<!--
 <h2>Serviço:</h2>
 <hr/>
-<div><!--  *ngIf="servicox.name" -->
+<div><!- -  *ngIf="servicox.name" - ->
 
   <h2>{{servicox.name | uppercase}} Details</h2>
   <div><span>id: </span>{{servicox.id}}</div>
   <div><span>nome: </span>{{servicox.name}}</div>
   <div><span>preço: </span>{{servicox.price}}</div>
   <div><span>descrição: </span>{{servicox.description}}</div>
-  <!--div>
+  <!- -div>
     <label>name:
       <input [(ngModel)]="selServico.name" placeholder="name"/>
     </label>
-  </div-->
+  </div-- >
 </div>
 <hr/>
+-->
 
 <h2>Serviço Listar:</h2>
 <hr/>
 <ul class="xservicos">
-  <li *ngFor="let servico of servicos">
+  <li *ngFor="let servico of servicos" (click)="onSelect(servico)">
     <span class="badge">id: {{servico.id}}</span> nome: {{servico.name}}
-    <button (click)="onSelect(servico)">
+    <!--button (click)="onSelect(servico)">
       Selecionar
-    </button>
+    </button-->
   </li>
 </ul>
 
