@@ -24,6 +24,11 @@ export class ServicoService {
     this.messageService.add('ServicoService: fetched servicos!');
     return of(servicos);
   }
-  
+
+  getServico(id: number): Observable<Servico> {
+    // TODO: send the message _after_ fetching the hero
+    this.messageService.add(`ServicoService: fetched servico id=${id}!`);
+    return of(servicos.find(servico => servico.id === id));
+  }
 
 }

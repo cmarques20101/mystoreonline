@@ -10,13 +10,13 @@ import { MessageService } from '../message.service';
   templateUrl: './servico-list.component.html',
   styleUrls: ['./servico-list.component.css']
 })
-export class ServicoListComponent {
-  selectedServico: Servico;
+export class ServicoListComponent implements OnInit {
+  //selectedServico: Servico;
   //servicos = servicos;
   servicos: Servico[];
   
   constructor(private ServicoService: ServicoService
-    , private messageService: MessageService
+    //, private messageService: MessageService
     ) { }
 
   //ngOnInit() {
@@ -25,12 +25,13 @@ export class ServicoListComponent {
   ngOnInit() {
     this.getServicos();
   }
-
-
+  
+  /*
   onSelect(servico: Servico): void {
     this.selectedServico = servico;
     this.messageService.add(`ServicoService: Selected service id=${servico.id}!`);
   }
+  */
 
   getServicos(): void {
     //this.servicos = this.ServicoService.getServicos();

@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+
+import { ServicoService }  from '../servico.service';
+
 import { Servico } from '../servico';
 
 @Component({
@@ -8,14 +14,27 @@ import { Servico } from '../servico';
 })
 export class ServicoViewComponent implements OnInit {
   title = 'Detalhes';
-  servico: Servico = 
+  servico: Servico = {};
+  /* 
   {
     id: 1,
     name: 'IE - Consultadoria'
   };
-  constructor() { }
+  */
+  
+  constructor(
+    private route: ActivatedRoute,
+    private servicoService: ServicoService,
+    private location: Location
+  ) { }
 
-  ngOnInit() {
+  ngOnInit(): void {
+    this.getServico();
   }
 
+  getServico(): void {
+    const id = +this.route.snapshot.paramMap.get('id');
+    this.servicoService.getServico(id)
+      .subscribe(servico => this.servico = hero);
+  }
 }

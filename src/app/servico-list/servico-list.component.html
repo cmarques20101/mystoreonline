@@ -20,14 +20,32 @@ servico-list works!
 <hr/>
 -->
 
+<!--
 <h2>Serviço Listar:</h2>
 <hr/>
 <ul class="xservicos">
   <li *ngFor="let servico of servicos" (click)="onSelect(servico)">
     <span class="badge">id: {{servico.id}}</span> nome: {{servico.name}}
-    <!--button (click)="onSelect(servico)">
+    <!- -button (click)="onSelect(servico)">
       Selecionar
-    </button-->
+    </button- ->
+  </li>
+</ul>
+-->
+<!--
+<ul class="servicos">
+  <li *ngFor="let servico of servicos"
+    [class.selected]="servico === selectedServico"
+    (click)="onSelect(servico)">
+    <span class="badge">{{servico.id}}</span> {{servico.name}}
+  </li>
+</ul>
+-->
+<ul class="servicos">
+  <li *ngFor="let servico of servicos">
+    <a routerLink="/servicoview/{{servico.id}}">
+      <span class="badge">{{servico.id}}</span> {{servico.name}}
+    </a>
   </li>
 </ul>
 
