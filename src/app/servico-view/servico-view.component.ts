@@ -14,7 +14,7 @@ import { Servico } from '../servico';
 })
 export class ServicoViewComponent implements OnInit {
   title = 'Detalhes';
-  servico: Servico = {};
+  servico: Servico;
   /* 
   {
     id: 1,
