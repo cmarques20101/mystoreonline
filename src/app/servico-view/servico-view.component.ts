@@ -35,6 +35,6 @@ export class ServicoViewComponent implements OnInit {
   getServico(): void {
     const id = +this.route.snapshot.paramMap.get('id');
     this.servicoService.getServico(id)
-      .subscribe(servico => this.servico = hero);
+      .subscribe(servico => this.servico = servico);
   }
 }
