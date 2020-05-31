@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
 import { Input } from '@angular/core';
 
 import { Servico } from '../servico';
@@ -14,6 +14,10 @@ export class ServicoListComponent {
   servicos = servicos;
   
   constructor() { }
+
+  ngOnInit() {
+    servicox = {id:0, name:'', price:0, description: '.'}
+  }
 
   onSelect(servico: Servico): void {
     this.servicox = servico;
