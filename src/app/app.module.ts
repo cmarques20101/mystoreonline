@@ -70,7 +70,7 @@ import { AppRoutingModule }     from './app-routing/app-routing.module';
   ],
   bootstrap: [ AppComponent ]
   //,
-  //providers: [ServicoService, MessageService]
+  ,providers: [ServicoService, MessageService]
 })
 export class AppModule { }
 
