@@ -28,6 +28,7 @@ export class ServicoService {
     this.messageService.add('ServicoService: fetched servicos all!');
     return of(servicos);
   }
+  
   getServicosCount(term: string): number {
     let qtd: number = 0;
     const source = of(servicos);

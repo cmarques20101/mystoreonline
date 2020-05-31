@@ -1,6 +1,8 @@
 import { Component, OnInit  } from '@angular/core';
 import { Input } from '@angular/core';
 
+import { Observable, of } from 'rxjs';
+
 import { Servico } from '../servico';
 import { ServicoService } from '../servico.service'
 import { MessageService } from '../message.service';
@@ -37,5 +39,11 @@ export class ServicoListComponent implements OnInit {
     //this.servicos = this.ServicoService.getServicos();
     this.ServicoService.getServicos()
       .subscribe(servicos => this.servicos = servicos);
+  }
+  
+  getServicosCount(term: string): number {
+    this.ServicoService.getServicosCount(term)
+      .subscribe(servicos => this.servicos = servicos);
+
   }
 }
