@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { Servico } from './servico';
-//import { servicos } from './servicos';
+import { servicos } from './servicos';
 
 @Injectable({
   providedIn: 'root',

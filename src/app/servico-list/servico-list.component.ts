@@ -18,9 +18,13 @@ export class ServicoListComponent {
   
   constructor(private servicoService: ServicoService) { }
 
-  ngOnInit() {
+  //ngOnInit() {
     //servicox = {}; //{id:0, name:'', price:0, description: '.'}
+  //}
+  ngOnInit() {
+    this.getServicos();
   }
+
 
   onSelect(servico: Servico): void {
     this.servicox = servico;
