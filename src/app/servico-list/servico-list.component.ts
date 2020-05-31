@@ -39,4 +39,4 @@ export class ServicoListComponent implements OnInit {
       .subscribe(servicos => this.servicos = servicos);
   }
 
-}
+  
