@@ -31,7 +31,9 @@ export class ServicoListComponent {
   }
 
   getServicos(): void {
-    this.servicos = this.ServicoService.getServicos();
+    //this.servicos = this.ServicoService.getServicos();
+    this.ServicoService.getServicos()
+      .subscribe(servicos => this.servicos = servicos);
   }
 
 }
