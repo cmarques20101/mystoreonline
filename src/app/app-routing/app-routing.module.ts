@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'app-servico-view/:id', component: ServicoViewComponent },
-  { path: 'app-servico-li', component: ServicoListComponent }
+  { path: 'app-servico-list', component: ServicoListComponent }
   
 
 ];

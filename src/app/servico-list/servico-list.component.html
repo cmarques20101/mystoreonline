@@ -45,7 +45,7 @@ servico-list works!
 <h3>Lista de Serviços</h3>
 <ul class="servicos">
   <li *ngFor="let servico of servicos">
-    <a routerLink="/servicoview/{{servico.id}}">
+    <a routerLink="/app-servico-view/{{servico.id}}">
       <span class="badge">{{servico.id}}</span> {{servico.name}}
     </a>
   </li>
