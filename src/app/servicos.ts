@@ -1,24 +1,24 @@
 export const servicos = [ 
   {
     id: 1,
-    name: 'Mercearia',
+    name: 'Técnico Instalação Elétrica',
     price: 0,
     description: '.'
   },  {
     id: 2,
-    name: 'Talho',
+    name: 'Técnico Canalização de Agua',
     price: 799,
     description: 'A large phone with one of the best screens'
   },
   {
     id: 3,
-    name: 'Peixaria',
+    name: 'Técnico Canalização de Gás',
     price: 699,
     description: 'A great phone with one of the best cameras'
   },
   {
     id: 4,
-    name: 'Frescos',
+    name: 'Outros Técnicos',
     price: 299,
     description: 'no description'
   }
