@@ -1,6 +1,9 @@
 import { Component, OnInit  } from '@angular/core';
 import { Input } from '@angular/core';
 
+import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+
 import { Observable, of } from 'rxjs';
 
 import { Servico } from '../servico';
@@ -17,7 +20,11 @@ export class ServicoListComponent implements OnInit {
   //servicos = servicos;
   servicos: Servico[];
   
-  constructor(private ServicoService: ServicoService
+  constructor(
+    private route: ActivatedRoute,
+    //private servicoService: ServicoService,
+    private location: Location
+    ,private ServicoService: ServicoService
     //, private messageService: MessageService
     ) { }
 
