@@ -20,7 +20,7 @@ export class DashboardComponent implements OnInit {
   getServicos(): void {
     this.ServicoService.getServicos()
       .subscribe(
-        servicos => this.servicos = servicos.slice(1, 5)
+        servicos => this.servicos = servicos.slice(0, 5)
         );
   }
 }
