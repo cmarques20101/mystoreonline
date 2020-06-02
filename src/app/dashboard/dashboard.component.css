@@ -40,7 +40,7 @@ h4 {
 .module:hover {
   background-color: #0ee;
   cursor: pointer;
-  color: #e5f508;
+  color: #2cf508;
 }
 .grid-pad {
   padding: 10px 0;
@@ -60,4 +60,5 @@ h4 {
   .module {
     min-width: 60px;
   }
+
 }
