@@ -7,7 +7,7 @@ import { ServicoListComponent } from '../servico-list/servico-list.component';
 import { ServicoViewComponent }  from '../servico-view/servico-view.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/servicelist', pathMatch: 'full' },
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'servicoview/:id', component: ServicoViewComponent },
   { path: 'servicolist', component: ServicoListComponent }
