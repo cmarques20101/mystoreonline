@@ -18,7 +18,7 @@ export class MessageService {
     //this.messages = [];
     this.messages.push(message);
     if (this.messages.length >3) {
-      this.messages = this.messages.slice(this.messages.length-1-,this.messages.length);
+      this.messages = this.messages.slice(this.messages.length-1-2,this.messages.length);
     }
 
   }
