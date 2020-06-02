@@ -8,7 +8,8 @@ import { Input } from '@angular/core';
 })
 export class AppComponent  {
   nameApp = 'Angular ' + VERSION.major + "";
-  @Input titlex; // = 'my store online 2';
+  //@Input titlex; // = 'my store online 2';
+  title = 'my store online 2';
 }
 
 
