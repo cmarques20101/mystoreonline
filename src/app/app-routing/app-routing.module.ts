@@ -13,10 +13,10 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'app-servico-view/:id', component: ServicoViewComponent },
   { path: 'app-servico-list', component: ServicoListComponent }
-  ,{ path: 'app-product-list', component: ProductLComponent }
+  ,{ path: 'app-product-list', component: ProductLiComponent }
 
 ];
-//app-product-list
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
