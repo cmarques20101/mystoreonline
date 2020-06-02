@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'app-servico-view/:id', component: ServicoViewComponent },
   { path: 'app-servico-list', component: ServicoListComponent }
-  { path: 'app-product-list', component: ProductComponent }
+  ,{ path: 'app-product-list', component: ProductComponent }
 
 ];
 //app-product-list
