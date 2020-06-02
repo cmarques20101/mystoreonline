@@ -48,9 +48,11 @@ export class ServicoListComponent implements OnInit {
       .subscribe(servicos => this.servicos = servicos);
   }
   
+  /*
   getServicosCount(term: string): number {
     this.ServicoService.getServicosCount(term)
       .subscribe(servicos => this.servicos = servicos);
 
   }
+  
 }
