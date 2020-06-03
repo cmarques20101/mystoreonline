@@ -1,12 +1,13 @@
 <!--p>
 messages works!
 </p-->
-<h1>{{title}}</h1>
+<!-- h1>{{title}}:</h1>
+<hr/ -->
 <!--app -heroes></app- heroes -->
 <!-- app -messages></app- messages -->
 <div *ngIf="messageService.messages.length">
 
-  <h2>Messages</h2>
+  <h2>Messagens:</h2>
   <!--button class="clear"
           (click)="messageService.clear()">clear</button-->
   <div *ngFor='let message of messageService.messages'> {{message}} </div>
