@@ -9,7 +9,7 @@ import { Input } from '@angular/core';
 export class AppComponent  {
   nameApp = 'Angular ' + VERSION.major + "";
   //@Input titlex; // = 'my store online 2';
-  title = 'ServeT - Plataforma de Intermidiação de Serviços Técnicos Certificados';
+  title = 'Serve-TC ou Plataforma de Intermdiação de Serviços Técnicos Certificados';
 }
 
 
