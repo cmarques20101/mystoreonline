@@ -10,6 +10,12 @@ import { products } from '../produtos';
 export class ProductListComponent {
   products = products;
 
+  /*
+  mprodutos: Servico[] = []; //start empty
+
+  constructor(private ServicoService: ServicoService) { }
+  *
+
   share() {
     window.alert('The product has been shared/Produto será partilhado via email!');
   }
