@@ -10,7 +10,9 @@ messages works!
   <h2>Messagens:</h2>
   <!--button class="clear"
           (click)="messageService.clear()">clear</button-->
-  <div *ngFor='let message of messageService.messages'> {{message}} </div>
+  <ol>
+  <li *ngFor='let message of messageService.messages'> {{message}} </li>
+  </ol>
 
 </div>
 <hr/>
