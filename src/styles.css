@@ -1,7 +1,8 @@
-/* Global Styles */
+/* Global Styles * /
+/*'Roboto', Arial, sans-serif;*/
 
 * {
-  font-family: 'Roboto', Arial, sans-serif;
+  font-family: "Courier New", Arial, sans-serif;  
   color: #616161;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
