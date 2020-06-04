@@ -107,6 +107,7 @@ label {
 
 /* Top Bar */
 nav {
+  color: black;
   background-color: yellow;
 }
 app-top-bar {
