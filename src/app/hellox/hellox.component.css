@@ -5,7 +5,12 @@
   margin: 0 0 0 0;
 }
 
-#myCor {
+#myCor_div {
+  color: white;
+  background-color: black;
+  
+}
+#myCor_address {
   color: white;
   background-color: black;
   
@@ -14,6 +19,7 @@
 address {
   color: blue;
   background-color: yellow;
+  opacity: 0.5;
 }
 
 
