@@ -4,7 +4,7 @@ import { Input } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: [ './app.component.css' ]
+  styleUrls: [ './app.global0.css', './app.component.css' ]
 })
 export class AppComponent  {
   nameApp = 'Angular ' + VERSION.major + "";
