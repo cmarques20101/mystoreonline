@@ -106,11 +106,13 @@ label {
 }
 
 /* Top Bar */
-
+nav {
+  background-color: yellow;
+}
 app-top-bar {
   width: 100%;
   height: 68px;
-  background-color: g;
+  background-color: #1976d2;
   padding: 16px;
   display: flex;
   flex-direction: row;
