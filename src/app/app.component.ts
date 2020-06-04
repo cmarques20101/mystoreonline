@@ -9,8 +9,9 @@ import { Input } from '@angular/core';
 export class AppComponent  {
   nameApp = 'Angular ' + VERSION.major + "";
   //@Input titlex; // = 'my store online 2';
-  subtitle = 'Plataforma de Intermediação de Serviços Técnicos Certificados';
   title = 'Serve';
+  subtitle = 'Plataforma de Intermediação de Serviços Técnicos Certificados';
+  
 }
 
 

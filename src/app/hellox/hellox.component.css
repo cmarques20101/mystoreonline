@@ -1,11 +1,14 @@
 * {
   color: blue;
   background-color: yellow;
+  border-style: none;
+  margin: 0 0 0 0;
 }
 
-div, hr {
-  color: blue;
-  background-color: yellow;
+#myCor {
+  color: white;
+  background-color: black;
+  
 }
 
 address {

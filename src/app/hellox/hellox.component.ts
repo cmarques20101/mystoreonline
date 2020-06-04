@@ -14,6 +14,7 @@ import { Component, Input } from '@angular/core';
 export class HelloxComponent  {
   @Input() nameAppx: string;
   @Input() titlex: string;
+  @Input() subtitlex: string;
   //titlex = "olá";
 }
 //Copy from: ?
