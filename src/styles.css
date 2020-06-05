@@ -9,6 +9,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#myhr {
+  background-color: cyan;
+}
+
 body {
   background-color: #7d7d7d;
   margin: 0;
