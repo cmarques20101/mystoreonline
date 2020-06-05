@@ -1,6 +1,6 @@
-* {
+* d{
   color: yellow;
-  background-color: yelblacklow;
+  background-color: black;
   border-style: none;
   margin: 0 0 0 0;
 }
@@ -18,7 +18,7 @@
 
 address {
   color: blue;
-  background-color: yellow;
+  background-color: black;
   opacity: 0.5;
 }
 
