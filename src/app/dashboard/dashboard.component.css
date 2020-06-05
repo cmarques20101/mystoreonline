@@ -40,9 +40,9 @@ h4 {
   border-radius: 2px;
 }
 .module:hover {
-  background-color: #0ee;
+  background-color: green; /*#0ee;*/
   cursor: pointer;
-  color: green;   /* #2cf508;*/
+  color: red;   /* #2cf508;*/
 }
 .grid-pad {
   padding: 10px 0;

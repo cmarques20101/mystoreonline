@@ -3,7 +3,7 @@
 
 * {
   font-family: "Courier New", Arial, sans-serif;  
-  color: #717171;
+  color: red; /*#717171;*/
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -45,7 +45,7 @@ p {
 
 a {
   cursor: pointer;
-  color: #7e7e7e;
+  color: red; /* #7e7e7e;*/
   text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ label {
   border-radius: 2px;
   font-size: 14px;
   cursor: pointer;
-  background-color: yellow; /* #1976d2;*
+  background-color: yellow; /* #1976d2;*/
   color: white;
   border: none;
 }
@@ -103,7 +103,7 @@ label {
 }
 
 .fancy-button i.material-icons {
-  color: yellow; /*#1976d2;*/
+  backgroundcolor: greenyellow; /*#1976d2;*/
   padding-right: 4px;
 }
 
@@ -131,6 +131,7 @@ app-top-bar h1 {
 /* Checkout Cart, Shipping Prices */
 
 .cart-item, .shipping-item {
+
   width: 100%;
   min-width: 400px;
   max-width: 450px;
