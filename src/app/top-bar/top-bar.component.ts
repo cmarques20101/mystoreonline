@@ -4,7 +4,7 @@ import { Input } from '@angular/core';
 @Component({
   selector: 'app-top-bar',
   templateUrl: './top-bar.component.html',
-  styleUrls: ['../app.global0.css', './top-bar.component.css']
+  styleUrls: [ './top-bar.component.css']
 })
 export class TopBarComponent implements OnInit {
   //title = 'My Store Online 1';

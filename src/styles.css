@@ -10,6 +10,7 @@
 }
 
 body {
+  background-color: #7d7d7d;
   margin: 0;
 }
 
@@ -44,7 +45,7 @@ p {
 
 a {
   cursor: pointer;
-  color: #1976d2;
+  color: #7e7e7e;
   text-decoration: none;
 }
 

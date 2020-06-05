@@ -1,8 +1,14 @@
-* d{
+* {
   color: yellow;
   background-color: black;
   border-style: none;
   margin: 0 0 0 0;
+}
+
+div {
+  color: white;
+  background-color: black;
+  
 }
 
 #myCor_div {
