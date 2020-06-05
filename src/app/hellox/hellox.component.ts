@@ -16,6 +16,8 @@ export class HelloxComponent  {
   @Input() titlex: string;
   @Input() subtitlex: string;
   //titlex = "olá";
+  email_geral ="e.serve.online.2020@gmail.com";
+  
 }
 //Copy from: ?
 
