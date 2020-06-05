@@ -107,6 +107,10 @@ label {
   padding-right: 4px;
 }
 
+/* menssagem */
+#menssagem {
+  background-color: green;
+}
 /* Top Bar */
 nav {
   color: black;

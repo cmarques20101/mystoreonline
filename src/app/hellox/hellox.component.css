@@ -5,6 +5,10 @@
   margin: 0 0 0 0;
 }
 
+#mysigla {
+  background-color: #717171;
+  opacity: 0,5;
+}
 div {
   color: white;
   background-color: black;
