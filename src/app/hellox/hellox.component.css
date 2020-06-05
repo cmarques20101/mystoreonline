@@ -26,12 +26,13 @@ div {
   
 }
 
+/*
 address {
   color: blue;
-  background-color: black;
+ /* background-color: black;* /
   opacity: 0.5;
 }
-
+*/
 
 /*
 h1 { font-family: Lato; }
